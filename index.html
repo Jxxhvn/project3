@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗАДАНИЕ 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="head__logo">
+            <img class="head__logo-img" src="img/vecteezy_baby-turtle-svg-turtle-cut-file-turtle-with-flower_21815083.jpg" alt="">
+        </div>
+        <nav class="head__menu">
+            <ul class="head__list">
+                <li class="head__item">
+                    <a class="head__link" href="#">HOME</a>
+                </li>
+                <li class="head__item">
+                    <a class="head__link" href="#">About US</a>
+                </li>
+                <li class="head__item">
+                    <a class="head__link" href="#">Product</a>
+                </li>
+                <li class="head__item">
+                    <a class="head__link" href="#">Sign in</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hero">
+        <article class="hero__section">
+            <h1 class="hero__title">Lorem ipsum dolor sit amet.</h1>
+            <h2 class="hero__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia qui dicta rem delectus numquam nisi laborum aut repellat, ex temporibus dignissimos quibusdam iure libero blanditiis recusandae incidunt odio eius expedita!</h2>
+            <button class="hero__button">Go link</button>
+        </article>
+    
+        <section class="about__section">
+            <h2 class="about__description">Lorem ipsum dolor sit amet.</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptates esse eos totam voluptatibus illum!</p>
+        </section>
+            <section class="cat__section">   
+                <div class="cat__menu" >
+                     <div class="cat__item">
+                        <img src="img/cat1.webp" alt="cat1" class="cat__img">
+                     </div>
+                     <div class="cat__item">
+                        <img src="img/cat2.jpg" alt="cat2" class="cat__img">
+                     </div>
+                     <div class="cat__item">
+                        <img src="img/cat3.jpg" alt="cat3" class="cat__img">
+                     </div>
+                      <div class="cat__item">
+                         <img src="img/cat4.jpg" alt="cat4" class="cat__img">
+                     </div>
+                     <div class="cat__item">
+                        <img src="img/cat5.png" alt="cat5" class="cat__img">
+                     </div>
+                     <div class="cat__item">
+                        <img src="img/cat6.jpg" alt="cat6" class="cat__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <form class="feedback" action="/send-feedback" method="POST" class="feedback-form">
+            <div class="feedback__form">
+               <h2>Feedback</h2>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Name">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="example@mail.com">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required placeholder="message"></textarea>
+             <button class="form__button" type="submit">Send</button>
+             </div>
+        </form>
+    <footer class="footer">
+        <p class="footer__text">copyright © 2025</p>
+    </footer>
+</body>
+</html>
+
+
